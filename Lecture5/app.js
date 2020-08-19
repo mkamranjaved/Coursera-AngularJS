@@ -1,25 +1,13 @@
-(function() {
+(function(){
+//Enable to protect us to making mistakes.
 'use strict';
 
-angular.module('NameCalculator', [])
-
-.controller('NameCalculatorCotroller', function($scope){
-  $scope.name = "";
-  $scope.totalValue = 0;
-
-  $scope.displayNumeris = function(){
-    var totalNameValue = calculateNumericForString($scope.name);
-    $scope.totalValue=totalNameValue;
-  };
-
-  function calculateNumericForString(string){
-    var totalStringValue = 0;
-    for(var i = 0; i < string.length; i++){
-      totalStringValue += string.charCodeAt(i);
-    }
-    return totalStringValue;
-  };
-
-});
+  angular.module('myFirstApp', [])
+  .controller('myFirstController', function($scope) {
+    $scope.name = "Kamran";
+    $scope.sayHello = function() {
+      return " Hello Coursera";
+    };
+  });
 
 })();
