@@ -29,7 +29,7 @@
       if (totalDishes <= 3)
         return "Enjoy the Lunch! ";
       else if (totalDishes > 3)
-        return "Sorry, too much dishes. Dishes count should not exceed 3. ";
+        return "Sorry, too much dishes. Dishes count should not exceed 3.";
       }
     };
 
