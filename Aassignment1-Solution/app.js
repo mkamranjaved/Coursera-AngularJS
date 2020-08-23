@@ -27,9 +27,9 @@
         return "Empty Dishes are not allowed. Please enter valid Dishes.";
       else {
       if (totalDishes <= 3)
-        return "Enjoy the Lunch! " +totalDishes;// + totalLength;
+        return "Enjoy the Lunch! ";
       else if (totalDishes > 3)
-        return "Sorry, too much dishes. Dishes count should not exceed 3. " +totalDishes;
+        return "Sorry, too much dishes. Dishes count should not exceed 3. ";
       }
     };
 
